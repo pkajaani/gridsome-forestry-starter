@@ -45,3 +45,7 @@ Import your site in Netlify
 3. Set the publish directory to: `dist`
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+
+## ... or use this button to Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pkajaani/gridsome-forestry-starter)
