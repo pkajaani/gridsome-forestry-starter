@@ -5,6 +5,13 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: foo
+  label: Foo
+  create: all
+  match: "**/*.md"
+  templates:
+  - journal
+- type: directory
   path: projects
   label: Projects
   create: documents
@@ -21,8 +28,6 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
-- type: heading
-  label: Huuhaa
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
